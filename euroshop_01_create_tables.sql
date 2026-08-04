@@ -1,5 +1,5 @@
 -- =============================================
--- Zalando Practice Database
+-- Euroshop Practice Database
 -- File 01: Create all tables
 -- =============================================
 -- Run this file first, before inserting any data.
