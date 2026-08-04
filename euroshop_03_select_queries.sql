@@ -1,5 +1,5 @@
 -- =============================================
--- Zalando Practice Database
+-- Euroshop Practice Database
 -- File 03: Business analysis queries
 -- =============================================
 
@@ -80,7 +80,7 @@ ORDER BY total_orders DESC;
 
 
 -- Q8: Which products are people buying together —
---     if someone buys A, are they also buying B?
+--     If someone buys A, are they also buying B?
 
 SELECT p1.product_name AS product_a, p2.product_name AS product_b, 
     COUNT(*) AS times_bought_together 
@@ -147,7 +147,7 @@ WHERE pr.return_rate > ca.category_avg_rate
 ORDER BY above_avg_by DESC;
 
 -- Q11: Which country made the most money each month,
---      and did it go up or down compared to the month before?
+--      And did it go up or down compared to the month before?
 
 WITH monthly_revenue AS (
   SELECT c.country,
