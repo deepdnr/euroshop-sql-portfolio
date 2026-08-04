@@ -1,5 +1,5 @@
 -- =============================================
--- Zalando Practice Database
+-- Euroshop Practice Database
 -- File 02: Insert sample data
 -- Version 2 — expanded dataset
 -- 8 categories, 20 products, 50 customers,
